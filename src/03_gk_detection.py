@@ -4,7 +4,7 @@ import numpy as np
 # ---------------------------
 # Load data
 # ---------------------------
-df = pd.read_csv("data/raw/session_001.csv")
+df = pd.read_csv("data/raw/new_player_data_2026_02_06_174048 - new_player_data_2026_02_06_174048.csv")
 df = df.dropna(subset=["EpochTime", "Latitude", "Longitude", "Speed"])
 
 df["EpochTime"] = pd.to_datetime(df["EpochTime"])

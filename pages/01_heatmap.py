@@ -8,7 +8,7 @@ st.title("Player Heatmap (GK toggle)")
 # ---------------------------
 # Load data
 # ---------------------------
-df = pd.read_csv("data/raw/session_001.csv")
+df = pd.read_csv("data/raw/new_player_data_2026_02_06_174048 - new_player_data_2026_02_06_174048.csv")
 df["EpochTime"] = pd.to_datetime(df["EpochTime"])
 
 gk_df = pd.read_csv("figures/gk_intervals_3min.csv")

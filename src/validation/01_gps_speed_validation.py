@@ -146,7 +146,7 @@ if __name__ == "__main__":
         "new_player_data_2026_02_06_174048.csv"
     )
 
-    OUTPUT_PATH = "data/raw/gps_validated.csv"
+    OUTPUT_PATH = "figures/gps_validated.csv"
 
     print("\nLoading data...")
     df = pd.read_csv(DATA_PATH)

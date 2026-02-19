@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # ---------------------------
 # Load data
 # ---------------------------
-df = pd.read_csv("data/raw/session_001.csv")
+df = pd.read_csv("data/raw/new_player_data_2026_02_06_174048 - new_player_data_2026_02_06_174048.csv")
 df = df.dropna(subset=["Latitude", "Longitude"])
 
 lat = df["Latitude"].values
